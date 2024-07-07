@@ -1,0 +1,350 @@
+.text-coral{
+    color: #FF4240;
+}
+
+.text-lightgray{
+  color: lightgray;
+}
+
+.nav-link:hover{
+    color: #de3c3a;
+}
+
+.btn-coral{
+    background-color: #FF4240;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.btn-coral:hover{
+    background-color: #de3c3a;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.search-icon {
+    font-size: 1.2rem;
+    color: #8791a0;
+    margin: 10px;
+    transition: transform 0.3s, color 0.3s;
+  }
+
+  .carousel {
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  .carousel-inner {
+    border-radius: 15px;
+  }
+
+  
+  .carousel-control-prev,
+  .carousel-control-next{
+    position: absolute;
+    top: 85%;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    z-index: 5;
+  }
+  
+  .carousel-control-next {
+    left: 60px;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 45%;
+  }
+
+  .carousel-caption h5 {
+    color: white;
+    text-align: left;
+  }
+
+  .carousel-caption p {
+    color: lightgray;
+    text-align: left;
+  }
+
+  .dashed-line {
+    border-top: 2px dashed lightgray;
+    margin: 20px 0;
+  }
+
+  .progress-bar-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+    .progress-bar-wrapper h5,
+    .progress-bar-wrapper p,
+    .progress-bar-circle .circle-content h5{
+      margin: 0;
+    }
+    .progress-bar-wrapper p {
+      color: lightgray;
+    }
+
+  .progress-bar-circle {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: conic-gradient(#007bff 0% 75%, lightgray 75% 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  .progress-bar-circle .circle-content {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .circle-item1{
+    background: conic-gradient(#FF4240 0% 65%, lightgray 65% 100%);
+  }
+  .circle-item2{
+    background: conic-gradient(#49D293 0% 75%, lightgray 75% 100%);
+  }
+  .circle-item3{
+    background: conic-gradient(#FFB546 0% 85%, lightgray 85% 100%);
+  }
+  .circle-item4{
+    background: conic-gradient(#4C8DF1 0% 95%, lightgray 95% 100%);
+  }
+
+
+  .image-container {
+    position: relative;
+    margin: 0 auto;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  .image-container img {
+    height: auto;
+    border-radius: 15px;
+  }
+
+  .gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 12px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    border-radius: 15px;
+    z-index: 1;
+  }
+
+  .overlay-content {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    text-align: left;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    z-index: 3;
+  }
+
+  .overlay-content h3 {
+    color: white;
+  }
+
+  .overlay-content p {
+    color: lightgray;
+  }
+
+  .overlay-content .btn {
+    margin-top: 10px;
+  }
+
+  .product-card {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .product-card .row {
+      flex-direction: column;
+    }
+
+    .product-card img {
+      border-radius: 15px;
+      object-fit: cover;
+      margin: 0 auto 15px;
+    }
+
+    .product-info {
+      flex-grow: 1;
+    }
+
+    .product-icons {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+
+    .product-icons span {
+      margin-right: 15px;
+      display: flex;
+      align-items: center;
+    }
+
+    .product-icons span i {
+      margin-right: 5px;
+    }
+
+    .product-info h5 {
+      margin-bottom: 10px;
+    }
+
+    .product-info p {
+      color: gray;
+      margin-bottom: 15px;
+    }
+
+    .product-price {
+      font-weight: bold;
+      margin-right: 10px;
+    }
+
+    .free-delivery {
+      color: green;
+    }
+
+    
+
+    .rounded-container {
+      border: 1px solid lightgray;
+      border-radius: 15px;
+      padding: 20px;
+  }
+  .accordion-header {
+      border-bottom: 1px solid lightgray;
+  }
+  .accordion-button {
+      font-weight: bold;
+      color: black;
+      background: none;
+      box-shadow: none;
+      position: relative;
+  }
+
+  .accordion-button::after{
+    display: none;
+  }
+  
+  .accordion-button::before {
+    position: absolute;
+    content: "\2212";
+    right: 10px;
+    top: 35%;
+   }
+
+   .accordion-button.collapsed::before{
+    content: "\002B";
+   }
+
+  .accordion-button:not(.collapsed) {
+    background-color: transparent;
+}
+  .accordion-body {
+      color: lightgray;
+  }
+
+.item {
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding: 30px 30px 10px 30px;
+}
+.item img, .item p, .item h5 {
+    margin-bottom: 15px;
+}
+.item-bg-1{
+  background-color: rgb(188, 237, 109, 0.1);
+}
+
+.item-bg-2{
+  background-color: rgb(253, 221, 95, 0.1);
+}
+
+.item-bg-3{
+  background-color: rgb(98, 156, 243, 0.1);
+}
+
+.fixed-textarea {
+  width: 100%;
+  height: 350px;
+  resize: none;
+}
+
+.input-item{
+  background-color: rgb(19, 19, 24, 0.03);
+  border: none;
+}
+.input-item::placeholder{
+  color: rgb(19, 19, 24, 0.3);
+}
+.input-item:focus{
+  background-color: rgb(19, 19, 24, 0.06);
+  outline:rgb(19, 19, 24, 0.06);
+}
+
+.social-icons-container{
+  background-color: rgb(19, 19, 24, 0.03);
+  border-radius: 10px;
+  padding: 35px;
+}
+.social-icon{
+  color: #131318;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 40px 0;
+}
+
+.footer h5, .footer h6 {
+  color: white;
+}
+
+.footer p {
+  color: rgb(255, 255, 255, 0.6);;
+}
+
+.footer .contact-info i {
+  margin-right: 10px;
+}
+
+.footer .list-unstyled {
+  list-style-type: none;
+  color: rgb(255, 255, 255, 0.6);
+}
